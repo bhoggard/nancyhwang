@@ -1,0 +1,109 @@
+body {
+	margin:10px;
+	padding:10px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	color:gray;
+	background-color:#030047;
+	font-size: 12px;
+}
+
+A {
+	text-decoration: none;
+	color:gray;
+	background-color:#030047;
+	font-weight: bold;
+}
+
+A:hover {
+	text-decoration: underline;
+	color:gray;
+	background-color:#030047;
+	font-weight: bold;
+}
+
+#announce {
+	float: right;
+	border:1px solid gray;			
+	padding:10px;
+	margin-top:50px;	
+	margin-right:15px;
+}
+
+#content {
+	padding-top: 30px;
+	width: 700px;
+}
+
+.emph {
+	font-weight: bold;
+}
+
+H2 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+
+H2.statement {
+	text-align: center;
+}
+
+H3 {
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#lang-links {
+	vertical-align: top;
+}
+
+LI {
+	padding-bottom: 2px;
+}
+
+LI.gallery {
+	padding-bottom: 10px;
+}
+
+#make {
+	width: 450px;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+#news-release {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#pr-contact {
+	padding-bottom: 20px;
+}
+
+.pr-header {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#pr-text {
+	width: 550px;
+}
+
+#statement {
+	width: 450px;
+	text-align: justify;
+	float: left;
+}
+
+#statement-arabic {
+	width: 590px;
+	float: left;
+}
+
+#statement-image { 
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+

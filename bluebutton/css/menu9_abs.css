@@ -1,0 +1,29 @@
+/*
+  menu9_abs.css
+  Absolute positioning styles for CBE Cascading Drop-down Menu
+  Cross-Browser.com
+*/
+  
+.marker {
+  position:relative; visibility:hidden; overflow:hidden;
+  width:0; height:1em; left:0; top:0;
+}
+.mLabel {
+  position:absolute; visibility:hidden; overflow:hidden;
+  width:150px; height:20px; margin:0px; padding:2px;
+  border-top:1px solid #030047; border-left:1px solid #030047;
+  border-bottom:1px solid gray; border-right:1px solid gray;
+  cursor:default;
+}
+.mBox {
+  position:absolute; visibility:hidden; overflow:visible;
+  width:150px; height:auto; margin:0px; padding:0; top:-1000px;
+  border-top:1px solid #030047; border-left:1px solid #030047;
+  border-bottom:1px solid gray; border-right:1px solid gray;
+}
+.mItem {
+  position:absolute; visibility:hidden; overflow:hidden;
+  width:148px; height:auto; margin:0; padding:0;
+  cursor:default;
+}
+
